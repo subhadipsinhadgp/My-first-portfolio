@@ -1,0 +1,82 @@
+body{
+    background-color: bisque;
+    text-size-adjust:initial;
+}
+div{
+    background-color: rgb(216, 174, 111);
+    text-align: center;
+    padding: 3rem 3rem;
+    border-style: double;
+    border-width: 20px;
+}
+img{
+    text-align: right;
+}
+
+a{
+    text-align: right;
+    background-color: pink;
+    margin-right: 200px;
+    padding:2rem 2rem;
+    border-style: double;
+    border-width: 2px;
+
+}
+a:hover{
+    background-color:red;
+}
+.root_root{
+    background-image: url(" ");
+
+}
+.service{
+    background-color: blanchedalmond;
+}
+
+ul{
+    width: 100px;
+    margin-bottom: 200px;
+}
+li{
+    justify-content: center;
+    width:400px;
+    margin-block: 30px;
+    background-color: rgb(184, 172, 64);
+    animation: text_reveal 2s;
+    animation-delay: 1s;
+    
+}
+@keyframes text_reveal{
+    50%{
+        width:0;
+        left:100%;}
+    100%{
+        width:100%;
+        left:0;
+    }}
+.for{
+    text-align: center;
+    justify-content: center;
+}
+.education{
+    background-image: url("https://res.cloudinary.com/dcbizs2zz/image/upload/v1758910183/Yellow-Background-PNG-Photo_eueiml.png");
+    width: 1500px;
+    
+}
+.for{
+    padding:1rem 1rem;
+}
+.red{
+    text-align: right;
+    background-position-y:20px ;
+
+    width:1400px
+
+}
+.red_{
+    background-color: antiquewhite;
+    padding:1rem 0.5rem;
+}
+.for{
+    text-align: left;
+}
